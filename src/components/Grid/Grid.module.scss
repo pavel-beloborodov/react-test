@@ -1,0 +1,50 @@
+.grid {
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 1em;
+  overflow: hidden;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+
+  .gridColumn,
+  .gridColumnHeader {
+    font-size: 1.2em;
+    padding: 12px 15px;
+    color: #090909;
+    text-align: left;
+  }
+
+  .gridColumn_alignRight {
+    text-align: right;
+  }
+
+  .gridColumnHeader {
+    font-weight: 600;
+  }
+
+  .gridRow {
+    &:nth-of-type(even) {
+      background-color: #f3f3f3;
+    }
+  }
+
+  .gridActions {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .gridActionItem {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+  }
+
+  .gridRowHeader {
+  }
+
+  .gridRow_selectable {
+    &:hover {
+      cursor: pointer;
+      background-color: #ccc;
+    }
+  }
+}

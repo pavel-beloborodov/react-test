@@ -1,0 +1,29 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  padding: 5px;
+  border: none;
+  margin: 0;
+
+  fill: #fff;
+
+  svg {
+    speak: none;
+    pointer-events: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+    fill: #f3f3f3;
+  }
+
+  &.invert {
+    fill: #00cfa4;
+
+    &:hover {
+      fill: #000;
+    }
+  }
+}

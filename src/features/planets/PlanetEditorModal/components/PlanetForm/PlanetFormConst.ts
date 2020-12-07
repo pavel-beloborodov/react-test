@@ -1,0 +1,30 @@
+export const TERRAIN_VALUES = [
+  "desert",
+  "grasslands",
+  "mountains",
+  "mountain ranges",
+  "jungle",
+  "forests",
+  "ocean",
+  "lakes",
+  "cityscape",
+  "grassy hills",
+  "rainforests",
+  "tundra",
+  "ice caves",
+  "swamp",
+  "gas giant",
+];
+
+export const PLANET_HEADERS = {
+  name: "Name",
+  rotation_period: "Rotation Period",
+  orbital_period: "Orbital Period",
+  diameter: "Diameter",
+  climate: "Сlimate",
+  gravity: "Gravity",
+  terrain: "Terrain",
+  surface_water: "Surface Water",
+  film_count: "Film Count",
+  residents_count: "Resident Count",
+};
